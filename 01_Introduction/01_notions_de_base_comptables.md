@@ -68,7 +68,7 @@ Les comptes de **classe 6** (charges) et **classe 7** (produits) alimentent le *
 
 > Document explicatif complémentaire du bilan et du compte de résultat. Elle donne le détail des méthodes comptables, des engagements hors bilan, etc.
 
-![Schéma de la comptabilité générale](../assets/images/schema-comptabilite.png)
+![Schéma de la comptabilité générale](../assets/images/bilan-structure.png)
 
 ---
 ## 5. Tableau récapitulatif des documents comptables
