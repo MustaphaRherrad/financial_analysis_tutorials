@@ -70,23 +70,22 @@ Les comptes de **classe 6** (charges) et **classe 7** (produits) alimentent le *
 
 ```mermaid
 graph TD
-    A[Comptabilité Générale] --> B[Bilan]
-    A --> C[Compte de Résultat]
+    A[Comptabilite Generale] --> B[Bilan]
+    A --> C[Compte de Resultat]
     A --> D[Annexe]
 
-    B --> E[Actif : ce que possède l'entreprise]
+    B --> E[Actif : ce que possede l'entreprise]
     B --> F[Passif : ce qu'elle doit]
 
     C --> G[Charges (classe 6)]
     C --> H[Produits (classe 7)]
-    G --> I[Salaires, Achats, Amortissements]
-    H --> J[Ventes, Subventions]
 
-    D --> K[Méthodes comptables]
+    G --> I[Salaires - Achats - Amortissements]
+    H --> J[Ventes - Subventions]
+
+    D --> K[Methodes comptables]
     D --> L[Engagements hors bilan]
     D --> M[Commentaires sur les postes]
-```
-
 ---
 
 ## 4. L’exercice comptable
