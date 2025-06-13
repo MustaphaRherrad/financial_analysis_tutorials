@@ -68,26 +68,18 @@ Les comptes de **classe 6** (charges) et **classe 7** (produits) alimentent le *
 
 > Document explicatif complémentaire du bilan et du compte de résultat. Elle donne le détail des méthodes comptables, des engagements hors bilan, etc.
 
-```mermaid
-graph TD
-    A[Comptabilite Generale] --> B[Bilan]
-    A --> C[Compte de Resultat]
-    A --> D[Annexe]
+![Schéma de la comptabilité générale](../assets/images/schema-comptabilite.png)
 
-    B --> E[Actif : ce que possede l'entreprise]
-    B --> F[Passif : ce qu'elle doit]
-
-    C --> G[Charges (classe 6)]
-    C --> H[Produits (classe 7)]
-
-    G --> I[Salaires - Achats - Amortissements]
-    H --> J[Ventes - Subventions]
-
-    D --> K[Methodes comptables]
-    D --> L[Engagements hors bilan]
-    D --> M[Commentaires sur les postes]
 ---
+## 5. Tableau récapitulatif des documents comptables
 
+| Document           | Rôle                                              | Périodicité | Contenu principal                      |
+| ------------------ | ------------------------------------------------- | ----------- | -------------------------------------- |
+| Bilan              | Photographie du patrimoine à une date donnée      | Annuel      | Actif (possessions) et Passif (dettes) |
+| Compte de résultat | Film de l’activité pendant un exercice            | Annuel      | Charges et Produits                    |
+| Annexe             | Explication complémentaire des 2 autres documents | Annuel      | Méthodes, détails, engagements         |
+
+---
 ## 4. L’exercice comptable
 
 Un **exercice comptable** dure en général **12 mois** (souvent de janvier à décembre). Les documents financiers sont établis **à la clôture** de chaque exercice.

@@ -13,4 +13,7 @@ financial_analysis_tutorials/
 ├── 04_Ressources/
 │   ├── liens_utiles.md
 │   └── bibliographie.md
-└── README.md
+├── assets/
+│   └── images/
+│       └── logo.png (optionnel)
+├── README.md
