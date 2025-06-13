@@ -56,12 +56,14 @@ Le bilan est divisé en deux grandes parties :
 ```mermaid
 flowchart TB
     A[ACTIF] --> A1[Immobilisations<br>corporelles et incorporelles]
-    A --> A2[Actif circulant<br>(stocks, créances)]
+    A --> A2[Actif circulant<br>stocks, créances]
     A --> A3[Trésorerie active]
 
-    B[PASSIF] --> B1[Capitaux propres<br>(capital, réserves, résultat)]
+    B[PASSIF] --> B1[Capitaux propres<br>capital, réserves, résultat]
     B --> B2[Dettes à long terme]
     B --> B3[Dettes à court terme]
     B --> B4[Trésorerie passive]
 
     A -. équilibre .-> B
+
+    
