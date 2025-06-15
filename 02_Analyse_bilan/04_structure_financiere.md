@@ -95,4 +95,9 @@ flowchart TD
     E --> E4[Fonds de roulement (FRNG)]
     E --> E5[BFR]
     E --> E6[Trésorerie nette]
+```
 
+---
+## Prochain chapitre
+
+👉 [Etude de cas: Ratios Bilan](./05_cas_pratique_ratios.md)

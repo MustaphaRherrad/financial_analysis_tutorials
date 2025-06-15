@@ -100,7 +100,22 @@ L’analyse structurelle du bilan passe par le calcul de **ratios financiers** q
 
 ```mermaid
 graph LR
-    A[Capitaux Propres] -->|Autonomie financière| AF[Total Passif]
-    D[Dettes financières] -->|Endettement| A
-    AC[Actif Circulant] -->|Liquidité générale| PC[Passif Circulant]
-    CR[Créances + Trésorerie] -->|Liquidité réduite| PC
+    %% Structure de base
+    A[["Capitaux Propres"]] -->|"/ Total Passif"| B[Ratio d'Autonomie Financière]
+    C[["Dettes Financières"]] -->|"/ Capitaux Propres"| D[Ratio d'Endettement]
+    E[["Actif Circulant<br>(Stocks + Créances)"]] -->|"/ Passif Circulant"| F[Ratio de Liquidité Générale]
+    G[["Créances + Disponibilités"]] -->|"/ Passif Circulant"| H[Ratio de Liquidité Immédiate]
+
+    %% Styles
+    class A,C,E,G lightblue
+    class B,D,F,H orange
+    style A stroke:#4CAF50,stroke-width:2px
+    style C stroke:#F44336,stroke-width:2px
+    style E stroke:#2196F3,stroke-width:2px
+    style G stroke:#9C27B0,stroke-width:2px
+```
+
+---
+## Prochain chapitre
+
+👉 [Structure Financière pour évaluer la santé de l'E/se](./04_structure_financiere.md)

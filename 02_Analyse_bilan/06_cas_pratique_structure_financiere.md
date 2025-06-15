@@ -1,8 +1,3 @@
-Voici un exemple complet de fichier `cas_pratique_structure_financiere.md`, présentant un cas pratique chiffré d’analyse de la structure financière d’une entreprise :
-
----
-
-```markdown
 # Cas pratique – Analyse de la structure financière
 
 Ce cas pratique présente l’analyse de la structure financière de l’entreprise **TechNova**, spécialisée dans la fabrication de composants électroniques.
@@ -125,3 +120,5 @@ graph TD
     E --> E3[Trésorerie nette = –50k]
     E --> E4[Autonomie: 33%]
     E --> E5[Gearing: 0,75]
+
+```

@@ -120,3 +120,9 @@ flowchart TD
 
     FRNG --> TN[Trésorerie Nette]
     BFR --> TN
+```
+
+---
+## Prochain chapitre
+
+👉 [Les Ratios Structurels du Bilan](./03_ratios_structurels_bilan.md)

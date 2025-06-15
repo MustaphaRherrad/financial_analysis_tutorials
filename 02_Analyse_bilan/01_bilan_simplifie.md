@@ -65,5 +65,10 @@ flowchart TB
     B --> B4[Trésorerie passive]
 
     A -. équilibre .-> B
+```
+---
+## Prochain chapitre
+
+👉 [Les Indicateurs du Bilan Fonctionnel](./02_indicateurs_bilan_fonctionnel.md)
 
     
