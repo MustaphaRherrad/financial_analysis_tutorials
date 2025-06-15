@@ -55,3 +55,8 @@ Il permet d'analyser la capacité de l'entreprise à générer du cash.
 
 ### Conclusion
 Ces trois documents sont interconnectés et offrent une vue complémentaire de l’activité et de la situation d'une entreprise. Les maîtriser est essentiel pour tout professionnel de la finance, analyste ou entrepreneur.
+
+---
+## Prochain chapitre
+
+👉 [Logique d'Analyse](./03_logique_globale_analyse.md)

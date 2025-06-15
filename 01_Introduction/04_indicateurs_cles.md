@@ -97,4 +97,8 @@ graph LR
 
     E --> E1[Rotation des stocks]
     E --> E2[Délai paiement client]
+```
+---
+## Prochain chapitre
 
+👉 [Petit Aperçu sur le Bilan: Bilan Simplifié](../02_Analyse_bilan/01_bilan_simplifie.md)

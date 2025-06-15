@@ -81,3 +81,9 @@ flowchart TD
     C --> D{Diagnostic global}
     D --> E1(Orientation stratégique)
     D --> E2(Aide à la décision)
+```
+
+---
+## Prochain chapitre
+
+👉 [Les Pricipaux Indicateurs](./04_indicateurs_cles.md)
