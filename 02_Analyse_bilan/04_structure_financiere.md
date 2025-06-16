@@ -79,22 +79,20 @@ Un bon équilibre suppose que :
 ## Diagramme Mermaid – Structure financière
 
 ```mermaid
-flowchart TD
-    A[Structure Financière de l'entreprise]
-    A --> B[Capitaux Propres]
-    A --> C[Dettes financières]
-    A --> D[Passif circulant]
-    B --> B1[Apports + Réserves + Résultat]
-    C --> C1[Emprunts bancaires, crédits-bails]
-    D --> D1[Dettes fournisseurs, fiscales, sociales]
-    
-    A --> E[Indicateurs]
-    E --> E1[Autonomie financière]
-    E --> E2[Gearing]
-    E --> E3[Solvabilité]
-    E --> E4[Fonds de roulement (FRNG)]
-    E --> E5[BFR]
-    E --> E6[Trésorerie nette]
+graph LR
+    %% Structure de base
+    A[["Capitaux Propres"]] -->|"/ Total Passif"| B[Ratio d'Autonomie Financière]
+    C[["Dettes Financières"]] -->|"/ Capitaux Propres"| D[Ratio d'Endettement]
+    E[["Actif Circulant<br>(Stocks + Créances)"]] -->|"/ Passif Circulant"| F[Ratio de Liquidité Générale]
+    G[["Créances + Disponibilités"]] -->|"/ Passif Circulant"| H[Ratio de Liquidité Immédiate]
+
+    %% Styles
+    class A,C,E,G lightblue
+    class B,D,F,H orange
+    style A stroke:#4CAF50,stroke-width:2px
+    style C stroke:#F44336,stroke-width:2px
+    style E stroke:#2196F3,stroke-width:2px
+    style G stroke:#9C27B0,stroke-width:2px
 ```
 
 ---

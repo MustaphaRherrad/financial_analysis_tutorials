@@ -88,57 +88,69 @@ Le **Solde Intermédiaire de Gestion (SIG)** est un outil d'analyse financière 
 
 ```mermaid
 graph TB
-    A[Ventes de marchandises]
-    B[Achat de marchandises vendues]
-    C[Marge commerciale]
+    %% Niveau 1 - Marge commerciale
+    A[Ventes de marchandises] --> C[Marge commerciale]
+    B[Achat de marchandises vendues] --> C
 
-    D[Production vendue]
-    E[Production stockée]
-    F[Production immobilisée]
-    G[Production de l’exercice]
+    %% Niveau 1 - Production
+    D[Production vendue] --> G[Production de l'exercice]
+    E[Production stockée] --> G
+    F[Production immobilisée] --> G
 
-    H[Consommations externes]
-    I[Valeur ajoutée]
-
-    J[Charges de personnel]
-    K[Impôts et taxes]
-    L[Excédent Brut d’Exploitation (EBE)]
-
-    M[Autres produits d’exploitation]
-    N[Dotations aux amortissements et provisions]
-    O[Résultat d’exploitation]
-
-    P[Produits financiers]
-    Q[Charges financières]
-    R[Résultat courant avant impôts (RCAI)]
-
-    S[Produits exceptionnels]
-    T[Charges exceptionnelles]
-    U[Résultat exceptionnel]
-
-    V[Impôt sur les bénéfices]
-    W[Résultat net comptable]
-
-    A --> C
-    B --> C
-    D --> G
-    E --> G
-    F --> G
-    C --> I
+    %% Niveau 2 - Valeur ajoutée
+    C --> I[Valeur ajoutée]
     G --> I
-    H --> I
-    I --> L
-    J --> L
-    K --> L
-    L --> O
-    M --> O
-    N --> O
-    O --> R
-    P --> R
-    Q --> R
-    R --> W
-    S --> U
-    T --> U
-    U --> W
-    V --> W
+    H[Consommations externes] --> I
 
+    %% Niveau 3 - EBE
+    I --> L[EBE]
+    J[Charges de personnel] --> L
+    K[Impôts et taxes] --> L
+
+    %% Niveau 4 - Résultat d'exploitation
+    L --> O[Résultat d'exploitation]
+    M[Autres produits d'exploitation] --> O
+    N[Dotations aux amortissements] --> O
+
+    %% Niveau 5 - Résultat courant
+    O --> R[RCAI]
+    P[Produits financiers] --> R
+    Q[Charges financières] --> R
+
+    %% Niveau 6 - Résultat exceptionnel
+    S[Produits exceptionnels] --> U[Résultat exceptionnel]
+    T[Charges exceptionnelles] --> U
+
+    %% Niveau 7 - Résultat final
+    R --> W[Résultat net comptable]
+    U --> W
+    V[Impôt sur les bénéfices] --> W
+
+    %% Style des noeuds
+    style C fill:#e6f3ff,stroke:#333
+    style G fill:#e6f3ff,stroke:#333
+    style I fill:#e6ffe6,stroke:#333
+    style L fill:#fff2cc,stroke:#333
+    style O fill:#ffe6cc,stroke:#333
+    style R fill:#f0f0f0,stroke:#333,stroke-width:2px
+    style U fill:#f0f0f0,stroke:#333
+    style W fill:#e6ffe6,stroke:#333,stroke-width:2px
+
+    %% Légende implicite par couleur
+    classDef produits fill:#e6f3ff,stroke:#333;
+    classDef indicateurs fill:#e6ffe6,stroke:#333;
+    classDef intermediaires fill:#fff2cc,stroke:#333;
+    classDef resultats fill:#ffe6cc,stroke:#333;
+    classDef final fill:#e6ffe6,stroke-width:2px;
+
+    class A,B,D,E,F,H,J,K,M,N,P,Q,S,T,V produits;
+    class I indicateurs;
+    class L intermediaires;
+    class O,R resultats;
+    class W final;
+```
+
+---
+## Prochain chapitre
+
+👉 [Les Ratios de Rentabilité et la Capacité d'autofinancement](./03_ratios_rentabilite_et_CAF.md)
