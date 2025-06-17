@@ -119,3 +119,8 @@ graph TD
     P --> S[Résultat net: 143k]
     T[Résultat exceptionnel: 2k] --> S
     U[Impôts sur bénéfices: 20k] --> S
+```
+---
+## Retour au tuto
+
+👉 [Les SIG](./02_SIG.md)

@@ -1,5 +1,10 @@
-L'analyse financière d'une entreprise à partir de ses documents comptables est un processus rigoureux et essentiel pour évaluer sa santé globale. Elle se décompose principalement en deux grandes parties : la **lecture financière du bilan** et la **lecture financière du compte de résultat**, complétées par les informations précieuses de l'**annexe**.
+L'analyse financière d'une entreprise à partir de ses documents comptables est un processus rigoureux et essentiel pour évaluer sa santé globale. Elle se décompose principalement en deux grandes parties : 
+* la **lecture financière du bilan**
+* la **lecture financière du compte de résultat**, complétées par les informations précieuses de l'**annexe**.
+
 ![Bilan-vs-compte-resultat](../assets/images/bilan-vs-compte-resultat.png)
+
+
 ---
 
 ## 1. Lecture Financière du Bilan : L'Analyse Structurelle

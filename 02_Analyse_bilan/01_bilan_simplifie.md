@@ -67,7 +67,7 @@ flowchart TB
     A -. équilibre .-> B
 ```
 ---
-## Prochain chapitre
+## Prochain tuto
 
 👉 [Les Indicateurs du Bilan Fonctionnel](./02_indicateurs_bilan_fonctionnel.md)
 

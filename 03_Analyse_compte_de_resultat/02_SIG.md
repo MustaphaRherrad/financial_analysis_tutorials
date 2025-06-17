@@ -3,6 +3,7 @@
 ## Introduction
 
 Le **Solde Intermédiaire de Gestion (SIG)** est un outil d'analyse financière qui décompose le **compte de résultat** pour mieux comprendre la formation du résultat d’une entreprise. Il met en évidence plusieurs soldes successifs, chacun révélant une étape de la création de valeur.
+Autrement dit, le SIG sert à découper les résultats d’une entreprise en plusieurs étapes, pour mieux comprendre comment elle gagne de l’argent et où elle en dépense. Cela aide à voir, étape par étape, comment se forme le bénéfice. On dit ici qu'on procède par "cascade".
 
 ---
 
@@ -151,6 +152,6 @@ graph TB
 ```
 
 ---
-## Prochain chapitre
+## Prochain tuto
 
 👉 [Les Ratios de Rentabilité et la Capacité d'autofinancement](./03_ratios_rentabilite_et_CAF.md)

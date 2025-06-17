@@ -124,3 +124,8 @@ graph TD
     E --> E1[Rotation stock = 12,5x/an]
     E --> E2[Clients = 45 j]
     E --> E3[Fournisseurs = 54 j]
+```
+---
+## Prochain tuto
+
+👉 [Autre cas pratique](./06_cas_pratique_structure_financiere.md)

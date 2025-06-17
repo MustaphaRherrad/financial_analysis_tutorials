@@ -105,7 +105,7 @@ Voici quelques profils concernés par la comptabilité :
 
 ---
 
-## 7. Prochain chapitre
+## 7. Prochain tutoe
 
 👉 [Documents financiers obligatoires](./02_documents_financiers.md)
 

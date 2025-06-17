@@ -53,10 +53,13 @@ Nous allons calculer ces ratios en utilisant les chiffres de notre exemple "Gree
 Ce ratio mesure la capacité de l'entreprise à générer du profit à partir de son activité principale, avant de prendre en compte les amortissements et le résultat financier ou exceptionnel. C'est souvent considéré comme un indicateur du "cash" généré par le cœur de métier.
 
 **Calcul :**
-* **Excédent Brut d'Exploitation (EBE)** = Produits d'exploitation - Charges d'exploitation (hors dotations aux amortissements et provisions)
-    * EBE = 400 000 € (Produits d'exploitation) - (30 000 + 120 000 + 80 000 + 15 000) € (Charges d'exploitation hors amortissements)
-    * EBE = 400 000 € - 245 000 € = **155 000 €**
-* **Taux de Marge d'EBE** = $$\frac{\text{EBE}}{\text{Chiffre d'Affaires}} \times 100$$    * Taux de Marge d'EBE =$$\frac{155\,000}{400\,000} \times 100 = \text{38.75 \%}$$
+
+* **Excédent Brut d'Exploitation (EBE)** = Produits d'exploitation - Charges d'exploitation (hors dotations aux amortissements et provisions)  
+  → EBE = 400 000 € (Produits d'exploitation) - (30 000 + 120 000 + 80 000 + 15 000) €  
+  → EBE = 400 000 € - 245 000 € = **155 000 €**
+
+* **Taux de Marge d'EBE** :  
+  $$\text{Taux de Marge d'EBE} = \frac{155\,000}{400\,000} \times 100 = 38{,}75\,\%$$
 
 **Interprétation :** Pour chaque euro de chiffre d'affaires, GreenTech Solutions génère 0.3875 € d'Excédent Brut d'Exploitation, ce qui est une marge solide pour une entreprise de services.
 
@@ -65,9 +68,13 @@ Ce ratio mesure la capacité de l'entreprise à générer du profit à partir de
 Ce ratio indique la part du chiffre d'affaires qui se transforme en profit après avoir couvert toutes les charges liées à l'activité principale, y compris les amortissements.
 
 **Calcul :**
-* **Résultat d'Exploitation (RE)** = Produits d'exploitation - Charges d'exploitation
-    * RE = 400 000 € - 280 000 € = **120 000 €**
-* **Taux de Marge Nette d'Exploitation** = $$\frac{\text{Résultat d'Exploitation}}{\text{Chiffre d'Affaires}} \times 100$$    * Taux de Marge Nette d'Exploitation =$$\frac{120\,000}{400\,000} \times 100 = \text{30 \%}$$
+
+* **Résultat d'Exploitation (RE)** = Produits d'exploitation - Charges d'exploitation  
+  → RE = 400 000 € - 280 000 € = **120 000 €**
+
+* **Taux de Marge Nette d'Exploitation** :  
+  $$\text{Taux de Marge Nette d'Exploitation} = \frac{120\,000}{400\,000} \times 100 = 30\,\%$$
+
 
 **Interprétation :** 30% du chiffre d'affaires de GreenTech Solutions est converti en profit issu de son activité principale. C'est une mesure de l'efficacité opérationnelle globale.
 
@@ -76,8 +83,11 @@ Ce ratio indique la part du chiffre d'affaires qui se transforme en profit aprè
 C'est le ratio le plus global. Il mesure la part du chiffre d'affaires qui reste à l'entreprise sous forme de bénéfice après toutes les charges (exploitation, financières, exceptionnelles) et l'impôt.
 
 **Calcul :**
+
 * **Résultat Net (RNC)** = **90 750 €** (donné dans le tableau)
-* **Taux de Marge Nette** = $$\frac{\text{Résultat Net}}{\text{Chiffre d'Affaires}} \times 100$$    * Taux de Marge Nette =$$\frac{90\,750}{400\,000} \times 100 = \text{22.69 \%}$$
+
+* **Taux de Marge Nette** :  
+  $$\text{Taux de Marge Nette} = \frac{90\,750}{400\,000} \times 100 = 22.69\,\%$$
 
 **Interprétation :** Pour chaque euro de vente, GreenTech Solutions conserve environ 0.23 € de bénéfice net. C'est un indicateur clé de la rentabilité finale pour les propriétaires.
 
@@ -87,7 +97,12 @@ Ce ratio est crucial pour les actionnaires. Il mesure le rendement que l'entrepr
 *(Note : Pour le ROE, nous aurions besoin du montant des Capitaux Propres du Bilan. Supposons pour l'exemple que les Capitaux Propres de GreenTech Solutions sont de **350 000 €**).*
 
 **Calcul :**
-* **ROE** = $$\frac{\text{Résultat Net}}{\text{Capitaux Propres}} \times 100$$    * ROE =$$\frac{90\,750}{350\,000} \times 100 = \text{25.93 \%}$$
+
+* **ROE** (Return on Equity) :
+  $$
+  \text{ROE} = \frac{\text{Résultat Net}}{\text{Capitaux Propres}} \times 100 = \frac{90\,750}{350\,000} \times 100 = 25.93\,\%
+  $$
+
 
 **Interprétation :** Les capitaux propres de GreenTech Solutions ont généré un rendement de près de 26%, ce qui est généralement considéré comme un excellent retour sur investissement pour les actionnaires.
 
@@ -186,6 +201,6 @@ graph TD
 En maîtrisant ces ratios et la CAF, vous passez de la simple lecture à une véritable **analyse financière** du compte de résultat. Vous êtes désormais capable d'évaluer non seulement la profitabilité, mais aussi la capacité de l'entreprise à générer ses propres ressources pour son développement futur. C'est un pas majeur vers une compréhension approfondie de la santé économique d'une entreprise.
 
 ---
-## Prochain chapitre
+## Prochain tuto
 
 👉 [L'Analyse Verticale et Horizonatle](./04_Analyse_Verticale_Horizontale_Effets_Leviers.md)

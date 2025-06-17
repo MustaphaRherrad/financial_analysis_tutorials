@@ -122,3 +122,7 @@ graph TD
     E --> E5[Gearing: 0,75]
 
 ```
+
+## Prochain tuto
+
+👉 [Petit Aperçu sur le Compte de Résultat: CR Simplifié](../03_Analyse_compte_de_resultat/01_Compte_de_Resultat_simplifie.md)

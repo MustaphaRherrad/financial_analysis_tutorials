@@ -84,6 +84,6 @@ flowchart TD
 ```
 
 ---
-## Prochain chapitre
+## Prochain tuto
 
 👉 [Les Pricipaux Indicateurs](./04_indicateurs_cles.md)

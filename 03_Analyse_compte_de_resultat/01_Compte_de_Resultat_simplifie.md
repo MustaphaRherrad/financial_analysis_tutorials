@@ -122,6 +122,6 @@ graph TD
 
 ---
 
-## Prochain chapitre
+## Prochain tuto
 
 👉 [Le Solde Intermédiaire de Gestion](./02_SIG.md)

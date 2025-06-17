@@ -116,6 +116,6 @@ graph LR
 ```
 
 ---
-## Prochain chapitre
+## Prochain tuto
 
 👉 [Structure Financière pour évaluer la santé de l'E/se](./04_structure_financiere.md)

@@ -122,27 +122,31 @@ Le levier financier mesure l'impact d'une variation du Résultat d'Exploitation 
 
 ### Diagramme de Flux : Analyse et Leviers
 
+
 ```mermaid
 graph TD
-    A[Compte de Résultat (Période N et N-1)] --> B{Analyse Verticale};
-    A --> C{Analyse Horizontale};
+    A[Compte de Résultat - Période N et N-1] --> B{Analyse Verticale}
+    A --> C{Analyse Horizontale}
 
-    B --> B1[Chaque poste en % du CA (N)];
-    B1 --> B2[Comprendre la structure des coûts et marges];
-    B2 --> D[Identifier les Charges Fixes];
+    B --> B1[Chaque poste en % du CA (N)]
+    B1 --> B2[Comprendre la structure des coûts et marges]
+    B2 --> D[Identifier les Charges Fixes]
 
-    C --> C1[Évolution des postes (N vs N-1)];
-    C1 --> C2[Détecter les tendances de croissance/décroissance];
-    C2 --> D;
+    C --> C1[Évolution des postes (N vs N-1)]
+    C1 --> C2[Détecter les tendances de croissance/décroissance]
+    C2 --> D
 
-    D --> E[Analyse du Levier d'Exploitation];
-    E --> F[Impact sur le Résultat d'Exploitation];
+    D --> E[Analyse du Levier d'Exploitation]
+    E --> F[Impact sur le Résultat d'Exploitation]
 
-    F --> G[Analyse du Levier Financier];
-    G --> H[Impact sur le Résultat Net et le ROE];
+    F --> G[Analyse du Levier Financier]
+    G --> H[Impact sur le Résultat Net et le ROE]
 
-    F & H --> I[Conclusion sur la Sensibilité du Profit et le Profil de Risque];
+    F --> I[Conclusion sur la Sensibilité du Profit et le Profil de Risque]
+    H --> I
+
 ```
+
 
 *Figure 3 : Processus d'analyse combinée du compte de résultat et des effets de levier*
 

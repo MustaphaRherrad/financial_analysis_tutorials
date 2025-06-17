@@ -123,6 +123,6 @@ flowchart TD
 ```
 
 ---
-## Prochain chapitre
+## Prochain tuto
 
 👉 [Les Ratios Structurels du Bilan](./03_ratios_structurels_bilan.md)

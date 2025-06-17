@@ -1,10 +1,9 @@
-# 03 indicateurs cles
-
 # Tutoriel 03 : Les indicateurs financiers clés
 
 ## Introduction
 
 Comprendre les indicateurs financiers est essentiel pour évaluer la performance économique et la santé d’une entreprise. Ils permettent de prendre des décisions éclairées en matière d’investissement, de gestion ou de stratégie. Ce tutoriel présente les indicateurs les plus utilisés dans l’analyse financière.
+Dans les prochains tutos, vous trouverez plus de détails sur ces indicateurs avec des aaplications sur des exemples concrets; ainsi que d'autres indicateurs de santé financière.
 
 ---
 
@@ -99,6 +98,6 @@ graph LR
     E --> E2[Délai paiement client]
 ```
 ---
-## Prochain chapitre
+## Prochain tuto
 
 👉 [Petit Aperçu sur le Bilan: Bilan Simplifié](../02_Analyse_bilan/01_bilan_simplifie.md)

@@ -96,6 +96,6 @@ graph LR
 ```
 
 ---
-## Prochain chapitre
+## Prochain tuto
 
 👉 [Etude de cas: Ratios Bilan](./05_cas_pratique_ratios.md)
