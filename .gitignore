@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.csv
+*.ipynb
 .ipynb_checkpoints/
 .env
 *.sqlite3
